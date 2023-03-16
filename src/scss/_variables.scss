@@ -1,0 +1,114 @@
+//#region custom fonts
+/* @font-face {
+    font-family: "My-Font";
+    src: url("./../fonts/My-Font.woff") format("woff"),
+      url("./../fonts/My-Font.eot"),
+      url("./../fonts/My-Font.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+} */
+//#endregion
+//#region limits (max-width)
+$i: 0;
+@while $i <= 2000 {
+  $i: $i + 50;
+  .is-limited-#{$i} {
+    max-width: #{$i}px;
+  }
+}
+//#endregion
+
+//#region bootstrap variables
+$container-max-widths: (
+  xl: 1400px,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1441px,
+);
+
+$enable-transitions: false;
+$enable-shadows: false;
+$enable-rounded: false;
+$enable-caret: false;
+$breadcrumb-divider: quote(">");
+
+$spacer: 1rem; // 16px
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  // 4px
+  2: $spacer * 0.5,
+  // 8px
+  3: $spacer,
+  // 16px
+  4: $spacer * 1.5,
+  // 24px
+  5: $spacer * 3,
+  // 48px
+);
+$grid-gutter-width: 1.5rem; // 24px
+$gutters: (
+  0: 0,
+  1: $spacer * 0.25,
+  // 4px
+  2: $spacer * 0.5,
+  // 8px
+  3: $spacer,
+  // 16px
+  4: $spacer * 1.5,
+  // 24px
+  5: $spacer * 3,
+  // 48px
+);
+
+$font-family-base: "Nunito", Helvetica, Arial, sans-serif;
+$font-family-serif: "Nunito", serif;
+$text-color: #000f2d;
+$body-bg: #ffffff;
+$body-color: $text-color;
+$link-color: $text-color;
+$border-color: #eeeeee;
+
+$primary: #00bddf;
+$secondary: #00b772;
+$success: #00b772;
+$info: #d2d2d2;
+$warning: #e56700;
+$danger: #e50019;
+$light: #f5f5f5;
+$dark: #606060;
+
+$min-contrast-ratio: 3.9;
+$btn-hover-bg-shade-amount: 0%;
+$btn-hover-bg-tint-amount: 0%;
+$btn-hover-border-shade-amount: 0%;
+$btn-hover-border-tint-amount: 0%;
+$btn-active-bg-shade-amount: 0%;
+$btn-active-bg-tint-amount: 0%;
+$btn-active-border-shade-amount: 0%;
+$btn-active-border-tint-amount: 0%;
+//#endregion
+
+//#region slick variables
+$slick-font-path: "../../node_modules/slick-carousel/slick/fonts/";
+$slick-loader-path: "../../node_modules/slick-carousel/slick/";
+//#endregions
+
+//#region hamburgers variables
+$hamburger-padding-x: 0px;
+$hamburger-padding-y: 15px;
+$hamburger-layer-width: 30px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 5px;
+$hamburger-layer-color: $primary;
+$hamburger-layer-border-radius: 0px;
+$hamburger-hover-opacity: 1;
+$hamburger-active-layer-color: $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+//#endregion
