@@ -1,0 +1,12 @@
+{
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#b693fc",
+    "statusBar.background": "#9461fb",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#722ffa",
+    "statusBarItem.remoteBackground": "#9461fb",
+    "statusBarItem.remoteForeground": "#15202b",
+    "tab.activeBorder": "#b693fc"
+  },
+  "peacock.color": "#9461fb"
+}
