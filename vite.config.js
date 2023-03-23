@@ -5,5 +5,8 @@ export default {
     port: 8080,
     hot: true,
   },
+  css: {
+    devSourcemap: true,
+  },
   plugins: [htmlPurge({ safelist: [/show/, /hide/] })],
 };
