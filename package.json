@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=./",
+    "build-watch": "vite build --base=./ --watch",
     "preview": "vite preview --port=8080"
   },
   "devDependencies": {
