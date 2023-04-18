@@ -1,12 +1,12 @@
 //#region custom fonts
-/* @font-face {
-    font-family: "My-Font";
-    src: url("./../fonts/My-Font.woff") format("woff"),
-      url("./../fonts/My-Font.eot"),
-      url("./../fonts/My-Font.eot?#iefix") format("embedded-opentype");
-    font-weight: normal;
-    font-style: normal;
-} */
+@font-face {
+  font-family: "My-Font";
+  src: url("./../fonts/Raleway.woff") format("woff"),
+    url("./../fonts/Raleway.eot"),
+    url("./../fonts/Raleway.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 //#endregion
 //#region limits (max-width)
 $i: 0;
@@ -67,8 +67,8 @@ $gutters: (
   // 48px
 );
 
-$font-family-base: "Nunito", Helvetica, Arial, sans-serif;
-$font-family-serif: "Nunito", serif;
+$font-family-base: "Raleway", Helvetica, Arial, sans-serif;
+$font-family-serif: serif;
 $text-color: #000f2d;
 $body-bg: #ffffff;
 $body-color: $text-color;

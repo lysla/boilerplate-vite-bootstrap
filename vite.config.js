@@ -31,5 +31,5 @@ export default {
       },
     },
   },
-  plugins: [htmlPurge({ safelist: [/show/, /hide/, /stick/, /slick/] })],
+  //plugins: [htmlPurge({ safelist: [/show/, /hide/, /stick/, /slick/] })],
 };
