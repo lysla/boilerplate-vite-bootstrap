@@ -9,6 +9,7 @@ import "bootstrap";
 
 import "slick-carousel";
 import hcSticky from "hc-sticky";
+import AfterViewportJs from "@lysla/afterviewportjs";
 
 //#region bootstrap navbar + hamburger + body scroll lock
 var navbarMain = document.getElementById("navbarMain");
