@@ -14,6 +14,7 @@ files.forEach((file) => {
 let object = Object.fromEntries(array);
 
 export default {
+  assetsInclude: ["images/*"],
   server: {
     port: 8080,
     hot: true,
